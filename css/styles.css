@@ -18,8 +18,28 @@
 }
 
 .holder{
-    
-    background-position: 400px;
-    color: rgb(50,16,14);
+    background-image: url(../Images/rect.jpeg);
+    border-image-width: 20px;
+    }
 
+.pizza{
+    width: 100px;
+  height: 100px;
+  padding-left: 5px;
+  padding-right:5px;
 }
+
+  .container{
+    border-radius: 25px;
+    background-color: red;
+    /* background-position: left top; */
+    background-repeat: repeat;
+    padding: 50px; 
+    width: 50%;
+    height: 500px;
+     
+}
+    
+ 
+
+
