@@ -6,11 +6,20 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.body{
-    background-image: url(../Images/pizza.jpg);
+.navbar{
+    background-color: black;
+    stroke-opacity: initial;   
+    float: right; 
 }
 
+.body{
+    background-image: url(../Images/pizza.jpg);
+    background-size: cover;
+}
 
-.navbar{
-float: right;
+.holder{
+    
+    background-position: 400px;
+    color: rgb(50,16,14);
+
 }
