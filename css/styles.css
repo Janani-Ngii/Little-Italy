@@ -1,5 +1,5 @@
 
-     @import url('https://fonts.googleapis.com/css?family=Anton|Baloo+Tammudu');
+     @import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Poppins:ital,wght@0,200;0,300;1,600&display=swap');
 
      body{
          font-family:'Anton';
@@ -7,6 +7,7 @@
          background-size:2000px 2000px;
          letter-spacing:2px;
      }
+
      body>main>section>h2
      {
          border: 1px solid #000;
@@ -17,6 +18,7 @@
          background:rgba(255,255,255,0.9);
          
      }
+
      .header::before{
          content:"";
          width:50px;
@@ -34,5 +36,3 @@
          font-family: 'Baloo Tammudu';
          color:aliceblue;
      }
-
-
