@@ -1,79 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Little-Italy Pizeria</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body class="body">
-    <div>
-        <img src="./Images/pizzaimg.jpeg">
-    </div>
-    <div>
-    <div class="navbar">
-        <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Little-Italy</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Welcome</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-        </ul>
-    </div>
-    <div class="container-fluid about">
-        <h1>ABOUT Us</h1>
-        <p>Pizza Deliciosa Restaurants that has been 
-            in pizza business for over 10years now and offers <br>
-            a very unique atmosphere for customers in addition to home 
-            delivery services for all pizza orders <br> and we know that pizza is a 
-            family meal which popular around <br> the world and that has resulted in a 
-            large number of chains of pizza <br>
-            restaurants but non of them is the best than Pizza Deliciosa.</p>
-    </div>
-    
-        <h3 class= "text-center mt-4">Order Here</h3>
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-sm-4 des">
-              <img class="pizza" src="./Images/pizzaimg.jpeg" >
-              <!-- <h4>Pizza</h4>
-              <p class="pdes">Our design practice offers a full range of services including brand strategy, 
-                interaction and visual design and user experience testing. <br>  
-                Throughout your project, our designers create and 
-                implement visual <br> design and workflows, solicit user 
-                feedback and work with you to make <br>
-                 sure what gets built is what is needed.</p> -->
-            </div>
-            <div class="col-sm-4 dev">
-              <img class="pizza" src="./Images/toppings.jpg">
-              <!-- <h4>Development</h4> -->
-              <!-- <p class="p-dev">All engineers are fluent in the latest enterprise, 
-                mobile and web <br> development technologies. <br>
-                They collaborate with your team to write, and improve code on a daily <br> basis, 
-                using proven practices such as test-driven development and <br> pair programming.</p> -->
-            </div>
-            <div class="col-sm-4 product">
-              <img class="pizza" src="./Images/crust.jpeg">
-              <!-- <h4>Product Management</h4>
-              <p class="p-prod">All engineers are fluent in the latest enterprise, 
-                mobile and web <br> development technologies. <br>
-                They collaborate with your team to write, and improve code on a daily <br> basis, 
-                using proven practices such as test-driven development and <br> pair programming.</p> -->
-            </div>
-          </div>
-        </div>   
-        <div class="form">
-          
-            
-        </div>  
-    
-    </div>
-</div>
-</body>
+<html>
+    <head>
+        <title>
+            Pizza place
+        </title>
+        <meta charset="UTF-8">
+        <meta name="description" content="this webpage helps you order delicious pizzas">
+        <meta name="keywords" content="hungry,pizzas,fast food,party">
+        <meta name="webpage developer" content="satwik srivastava">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/styles.css">
+        
+        
+    </head>
+    <body>
+        <main>
+            <section>
+                <h2 class="header"><center>WELCOME TO LITTLE ITALY Pizeria!</center></h2><br>
+                <h4><center>Come and get some.</center></h4><br>
+                <h3><center>Place Order</center></h3>
+            </section>
+            <section>
+                <div id=delivery>
+                    <form action ="pizzas.php" method="post">
+                    <h4>Delivery</h4>
+                    
+                    <input type="radio" name="radio">Delivery<br>
+                    <input type ="radio" name="radio">Pickup 
+                </div>
+                <div class="Address">
+                    <h3>Address</h3>
+                    <input type="text" name="text" placeholder="Address Line 1" required><br><br><br>
+                    <input type ="text" name="text" placeholder="estate" required><br><br><br>
+                    <input type ="text" name="text" placeholder="telephone" required><br><br><br>
+                </div>    
+                    
+                    
+                
+                <div class="Size">
+                    <h4>Size</h4>
+                    <select>
+                        <option value="Small">
+                            small -750
+                        </option>
+                        <option value="Medium">
+                            medium - 850
+                        </option>
+                        <option value= "Large">
+                            large - 950
+                        
+                        </option>
+                        <option value="Mega">
+                            mega -1150
+                        </option>
+                    </select>
+                    
+                    <h5>Crust</h5>
+                    <select>
+                        <option value="Thin Crust">
+                            Thin crust -200
+                        </option>
+                        <option value="Sicilian Style">
+                            Sicilian style- 300
+                        </option>
+                        <option value= "Gluten free">
+                            Gluten free- 400                        
+                        </option>
+                        <option value="Flatbread">
+                            Flatbread- 250
+                        </option>
+                    </select>
+                        <h5>Toppings</h5>
+                    <select>
+                        <option value="Cheese">
+                            Cheese -200
+                        </option>
+                        <option value="Black Olives">
+                            Black Olives- 100
+                        </option>
+                        <option value= "mushrooms">
+                            Mushrooms - 200                        
+                        </option>
+                        <option value="marinara sauce">
+                            marinara sauce -100
+                        </option>
+                        <option value= "pepperoni">
+                            Peperoni - 300                        
+                        </option>
+                        <option value= "bbq beef">
+                            bbq beef - 300                        
+                        </option>
+                        <option value= "bbq chicken">
+                            bbq chicken - 300                        
+                        </option>
+                        <option value= "Salami">
+                            Salami - 300                        
+                        </option>
+                    </select>
+                    <button type="submit" value="send">Place Order</button><br><br>
+                        </form>
+                </div>
+            </section>
+            <footer>
+                <center>
+                    Little-Italy Pizeria
+                    &copy; 2022
+                    <br>
+                    <a href="">Terms Of Service</a>
+                </center>
+            </footer>
+        </main>
+    </body>
 </html>
