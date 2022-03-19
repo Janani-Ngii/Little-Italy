@@ -1,55 +1,9 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Poppins:ital,wght@0,200;0,300;1,600&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
 
-.navbar{
-    background-color: black;
-    stroke-opacity: initial;   
-    float: right; 
-}
-
-.body{
-    background-image: url(../Images/pizza.jpg);
-    background-size: cover;
-}
-
-.holder{
-    background-image: url(../Images/rect.jpeg);
-    border-image-width: 20px;
-    }
-
-.pizza{
-    width: 100px;
-  height: 100px;
-  padding-left: 5px;
-  padding-right:5px;
-}
-
-  .container{
-    border-radius: 25px;
-    background-color: red;
-    /* background-position: left top; */
-    /* background-repeat: repeat;
-    padding: 50px; 
-    width: 50%;
-    height: 500px;
-     
-}
-.about{
-    background-color: azure;
-    margin-top: 20%;
-    text-align: center;
-}
-     */ */
      @import url('https://fonts.googleapis.com/css?family=Anton|Baloo+Tammudu');
 
      body{
          font-family:'Anton';
-         background-image: url(pi.jpg);
+         background-image: url(../Images/pi.jpg);
          background-size:2000px 2000px;
          letter-spacing:2px;
      }
