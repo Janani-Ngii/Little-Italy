@@ -38,8 +38,9 @@
      }
 
      .rect{
-       background-color: green;
+       background-color: rgba(0, 0, 0, 0.315);
        width: 60%;
        margin-left: 20%;
-
      }
+
+     
