@@ -54,6 +54,8 @@
                         <option value="300">salami</option>
                         <br>
                         <br>
+                        <br>
+
                     <form id="pricing">
                         <option value="one"></option>
                     <div class="form group">
@@ -66,21 +68,39 @@
                     
                     
 
-                    <button id="btn">order</button>
+                    <button id="btn">order</button><br><br>
+
+                    <button id="btn2">checkout</button>
+
+
                     <script>
                         var button = document.getElementById("btn")
                         button.addEventListener("click",function(){
-                            prompt("What is your name?");
-                            prompt("would you like your pizza delivered at an extra Kshs 300?");
+                            
+                            prompt("Dear customer, would you like your pizza delivered at an extra Kshs 300?");
                             prompt("where would you like your pizza delivered?");
-                            alert()
-                        });  
-                        
-                                             
-            
-            
+                             var location = prompt ('where would you like your pizza delivered?');
+                            alert("you can now checkout. To get your total");
+                        });                    
+                                 
+                                         
             
                     </script>
+                    <script>
+                        var button = document.getElementById("btn2");
+                        var crust = document.getElementById("crust");
+                        var Size = document.getElementById("size");
+                        var pricing document.getElementById("number");
+                        var toppings = document.getElementById("toppings");
+                        
+                       button.addEventListener("onClick",function(){
+                           alert("Dear customer your total is" + "(crust+toppings+size)*(number)");
+                        });
+
+                        
+                   </script>
+
+
 
 
                    
@@ -89,7 +109,7 @@
 
 
 
-                    <button id="btn1">checkout</button><br><br>
+                    
                     
                                                        
                  
