@@ -16,7 +16,7 @@ Description
 
 Installation
 
-Click the following link https://janani-ngii.github.io/DELANI/ this will only help you see the website outlook.
+Click the following link github.com/janani-ngii/little-italy.git this will only help you see the website outlook.
 For one to access this website they have to have a github account, access my account Janani-Ngii and click on the link under description. 
 If one needs to be a collaborator on the projecton their device, they will have to use the fork option on github.
 
