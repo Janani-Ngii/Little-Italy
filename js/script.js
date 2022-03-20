@@ -28,7 +28,7 @@ $("#checkout").click(function){
 
 var person=new Order(myCrust(), myNumber(), mySize(), myToppings())
 alert(total);
-})
+});
 
 })
 
